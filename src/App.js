@@ -1,11 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
+import UIExample from './ui/UIExample'
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <UIExample width="800" height="600" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
